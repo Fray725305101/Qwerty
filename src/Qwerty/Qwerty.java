@@ -10,10 +10,10 @@ public class Qwerty {
         String inputChar = scanner.nextLine();
         int idxInputChar = qwerty.indexOf(inputChar);
         if (!inputChar.equals("q")) {
-            System.out.println(qwerty.charAt(idxInputChar - 1));
+            System.out.println("Left char is " + qwerty.charAt(idxInputChar - 1));
         }
         else {
-            System.out.println(qwerty.charAt(qwerty.length()-1));
+            System.out.println("Left char is " + qwerty.charAt(qwerty.length()-1));
         }
     }
 }
